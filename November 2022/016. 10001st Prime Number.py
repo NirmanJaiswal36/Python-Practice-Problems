@@ -7,7 +7,7 @@ prime = []
 a = len(prime)
 x=2
 while a<10001:
-    y = range(2,x)
+    y = range(2,int(x**0.5)+1)
     z = [x%element for element in y]
     if 0 not in z:
         prime.append(x)
