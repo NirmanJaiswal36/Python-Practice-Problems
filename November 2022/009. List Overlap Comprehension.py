@@ -4,8 +4,8 @@
 
 from random import*
 
-a = sample(range(100), randint(1,15))
-b = sample(range(100), randint(1,15))
+a = sample(range(100), randint(10,25))
+b = sample(range(100), randint(10,25))
 print(a)
 print(b)
 
