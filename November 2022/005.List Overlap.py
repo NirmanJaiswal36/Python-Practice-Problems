@@ -18,7 +18,7 @@ c = a + b
 d = []
 
 for element in c:
-    if element not in d:
+    if (element in a) and (element in b) and (element not in d):
         d.append(element)        
 
 print(d)        
