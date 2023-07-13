@@ -3,7 +3,7 @@
 '''Ask the user for a number and determine whether the number is prime or not.'''
 
 def division(num):
-    x = range(2,num)
+    x = range(2,(int(num**0.5)+1))
     y = [num%x for x  in x]
     if 0 in y:
         print('The number is not prime.')
