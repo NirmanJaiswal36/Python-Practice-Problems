@@ -10,11 +10,10 @@ prime_factor = []
 num = int(input('Enter the number whose largest prime factor you want:'))
 x = range(2,num//2)
 
-
 factors = [a for a in x if num%a==0]
 
 for factor in factors:
-    y = range(2,factor)
+    y = range(2,int(factor**0.5)+1)
     rem = [factor%element for element in y]
     if 0 not in rem:
         prime_factor.append(factor)
