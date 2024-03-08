@@ -4,5 +4,4 @@ class person:
     def display(self):
         print("Hello",self.name)
 
-person1 = person("Nirman")
-person1.display()
+person("amul").display()
